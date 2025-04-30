@@ -58,7 +58,7 @@ from flask import Flask, render_template, request, redirect, send_file, url_for
 from werkzeug.utils import secure_filename, send_from_directory
 import os
 import subprocess
-import jsonify
+from flask import jsonify
 
 app = Flask(__name__)
 
